@@ -1,0 +1,290 @@
+
+@media (min-width: 768px){
+    .contenedorCards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 576px){
+    .contenedorCards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .video video{
+        padding: 35px;
+    }
+    .galeria{
+        margin: 0 150px;
+        height: 400px;
+    }
+    .contenidoCarrusel{
+        height: 400px;
+    }
+}
+@media (min-width: 576px){
+    .video video{
+        padding: 15px;
+    }
+    .galeria{
+        margin: 0 120px;
+        height: 300px;
+    }
+    .contenidoCarrusel{
+        height: 300px;
+    }
+    .contendorHistoriaVideo{
+        margin: 0 100px;
+    }
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+}
+/* font-family: 'Gochi Hand', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Proza Libre', sans-serif; */
+.navBar{
+    background-color: #751717 !important;
+    width: 100%;
+    z-index: 5;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px !important; 
+    padding: 20px !important;
+}
+.pNav{
+    color: #E8DDCB !important;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.banner{
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/26/19/45/red-2892235_960_720.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.bannerTitulo{
+    color: #E8DDCB;
+    font-size: 40px;
+    margin: auto;
+}
+main{
+    /* background-color: #E8DDCB; */
+    height: min-content;
+}
+.bannerTitulo{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 80px;
+}
+h2, h3{
+    text-align: center;
+}
+h2{
+    padding: 35px 0;
+    font-family: 'Lato', sans-serif;
+    color: #5c0000;
+    font-weight: bold;
+}
+.contendorHistoriaVideo{
+    /* background-color: gray; */
+    height: min-content;
+    margin: 0 150px;
+}
+/* .contenidoHistoria{
+    background-color: aqua;
+}
+.video{
+    background-color: aqua;
+} */
+.video video{
+    width: 100%;
+}
+.contenidoCarrusel{
+    height: 500px;
+    width: 100%;
+}
+.galeria{
+    height: 500px;
+    margin: 0 350px;
+    overflow: hidden;
+}
+.contenedorCards{
+    height: min-content;
+    /* background-color: gray; */
+    margin: 0 150px 150px 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.containCard{
+    width: 100%;
+    height: 300px;
+}
+.imagenProducto{
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imagenUno{
+    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt107209f920c9d1c5/75297.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+}
+.imagenDos{
+    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+}
+.imagenTres{
+    background-image: url(https://www.lego.com/cdn/cs/set/assets/bltb44cc1cd596f22a6/75304_alt4.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+}
+.imagenCuatro{
+    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt3505aaa8c4488d6b/75277.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+}
+.imagenCinco{
+    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt834c5ddd9d65a669/75300.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+}
+.imagenSeis{
+    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt934044fa508776e2/75252.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+}
+.card1{
+    height: 100px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card1 p{
+    padding: 7px 0;
+}
+.negrita{
+    font-weight: bold;
+    color: #751717;
+}
+footer{
+    background-color: #2d661b;
+    color: white;
+    height: 100%;
+}
+.h2Contacto{
+    color: white;
+}
+.pFooter{
+    padding-bottom: 16px;
+}
+/* From uiverse.io */
+button {
+    margin-top: 10px;
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+}
+   
+.front {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    font-size: 1.1rem;
+    color: white;
+    background: #ba0c0c;
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+button:hover {
+    filter: brightness(110%);
+}
+   
+button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+   
+button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+   
+button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+#snow{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    background: url(https://previews.123rf.com/images/ekmelica/ekmelica1511/ekmelica151100102/48822768-sin-patr%C3%B3n-de-ca%C3%ADda-de-los-copos-de-nieve-de-plata-sobre-fondo-blanco-modelo-elegante-para-la-navida.jpg);
+    -webkit-animation: snow 15s linear infinite;
+    animation: snow 15s linear infinite;
+    z-index: -1;
+}
+@keyframes snow{
+0% {
+    background-position: 0 0, 0 0;
+}
+100% {
+    background-position: 500px 1000px, 500px 500px;
+    }
+}
+@-webkit-keyframes snow{
+    0% {
+        background-position: 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 1000px, 500px 500px;
+    }
+}
+
+@media (max-width: 576px){
+    .contenedorCards{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 100px 100px 100px;
+    }
+    .bannerTitulo{
+        font-size: 60px;
+    }
+}
+@media (max-width: 576px){
+    .video video{
+        padding: 15px;
+    }
+    .galeria{
+        margin: 0 80px;
+        height: 300px;
+    }
+    .contenidoCarrusel{
+        height: 300px;
+    }
+    .contendorHistoriaVideo{
+        margin: 0 50px;
+    }
+}
