@@ -74,7 +74,7 @@ h2{
     margin: 0 350px;
     overflow: hidden;
 }
-.contenedorCards{
+.contenedorCards, .contenedorCards2{
     height: min-content;
     /* background-color: gray; */
     margin: 0 150px 150px 150px;
@@ -195,7 +195,7 @@ button:focus:not(:focus-visible) {
     outline: none;
 }
 
-#snow{
+/* #snow{
     position: fixed;
     left: 0;
     top: 0;
@@ -221,9 +221,9 @@ button:focus:not(:focus-visible) {
     100% {
         background-position: 500px 1000px, 500px 500px;
     }
-}
+} */
 @media (max-width: 992px){
-    .contenedorCards{
+    .contenedorCards, .contenedorCards2{
         grid-template-columns: repeat(2, 1fr);
     }
     .video video{
@@ -235,7 +235,7 @@ button:focus:not(:focus-visible) {
     }
 }
 @media (max-width: 768px){
-    .contenedorCards{
+    .contenedorCards, .contenedorCards2{
         grid-template-columns: repeat(1, 1fr);
     }
     .contenidoCarrusel{
@@ -256,7 +256,7 @@ button:focus:not(:focus-visible) {
     }
 }
 @media (max-width: 576px){
-    .contenedorCards{
+    .contenedorCards, .contenedorCards2{
         grid-template-columns: repeat(1, 1fr);
         margin: 0 100px 100px 100px;
     }
