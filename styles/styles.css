@@ -22,7 +22,7 @@ font-family: 'Proza Libre', sans-serif; */
     margin-right: 20px;
 }
 .banner{
-    background-image: url(https://cdn.pixabay.com/photo/2017/10/26/19/45/red-2892235_960_720.png);
+    background-image: url(/img/banner.webp);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -94,22 +94,22 @@ h2{
     background-position: center;
 }
 .imagenUno{
-    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt107209f920c9d1c5/75297.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+    background-image: url(/img/imgJuguete1.webp);
 }
 .imagenDos{
-    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt892f38a4fd55edeb/75257.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+    background-image: url(/img/imgJuguete2.webp);
 }
 .imagenTres{
-    background-image: url(https://www.lego.com/cdn/cs/set/assets/bltb44cc1cd596f22a6/75304_alt4.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+    background-image: url(/img/imgJuguete3.webp);
 }
 .imagenCuatro{
-    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt3505aaa8c4488d6b/75277.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+    background-image: url(/img/imgJuguete4.webp);
 }
 .imagenCinco{
-    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt834c5ddd9d65a669/75300.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+    background-image: url(/img/imgJuguete5.webp);
 }
 .imagenSeis{
-    background-image: url(https://www.lego.com/cdn/cs/set/assets/blt934044fa508776e2/75252.jpg?fit=bounds&format=webply&quality=80&width=320&height=320&dpr=1);
+    background-image: url(/img/imgJuguete6.webp);
 }
 .card1{
     height: 100px;
