@@ -1,10 +1,11 @@
 function carga(){
-    let userURL = localStorage.getItem("urlGlobal");
+
+    const valores = window.location.search;
+    const idUser = valores.replace(/[^0-9]+/g, "");
+    const URL = 'https://reqres.in/api/users/' + idUser;
 
     var xhr = new XMLHttpRequest();
-    const URL = userURL
     const contenedorPrincipalDos = document.querySelector("#contenedorUser");
-
 
     xhr.open("GET", URL, true);
     xhr.onload = function(){

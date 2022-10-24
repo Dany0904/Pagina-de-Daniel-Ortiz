@@ -38,18 +38,17 @@ xhr.onload = function(){
 
         avatarImg = datosObject.data[i].avatar;
         divImg.style.backgroundImage = 'url('+avatarImg+')';
-        aNombre.setAttribute('href','/indexUser.html');
+        aNombre.setAttribute('href','/indexUser.html?id='+(i+1));
         aNombre.setAttribute('target','_blanck')
-        aNombre.setAttribute('onClick','userIndividual('+(i+1)+')');
         aNombre.setAttribute('class','nombre');
     }
     
 };
 xhr.send(); 
 
-function userIndividual(i){
+/* function userIndividual(i){
     localStorage.setItem("urlGlobal", elementoVacio);
     userURL = URL+'/'+i;
     localStorage.setItem("urlGlobal", userURL);
     return userURL;
-}
+} */
