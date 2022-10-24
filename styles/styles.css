@@ -97,6 +97,10 @@ h2{
     background-repeat: no-repeat;
     background-position: center;
 }
+.negrita{
+    font-weight: bold;
+    color: #5c0000;
+}
 .imagenUno{
     background-image: url(/img/imgJuguete1.webp);
 }
