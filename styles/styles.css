@@ -86,6 +86,10 @@ h2{
     width: 100%;
     height: 300px;
 }
+.containCard2{
+    width: 30%;
+    height: 300px;
+}
 .imagenProducto{
     width: 100%;
     height: 200px;
@@ -115,13 +119,19 @@ h2{
     height: 100px;
     background: rgb(236, 236, 236);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-align: center;
 }
 .card1 p{
     padding: 7px 0;
 }
-.negrita{
+.card1 a{
+    padding: 7px 0;
+    display: block;
+}
+.nombre{
+    text-decoration: none;
+    color: black;
     font-weight: bold;
-    color: #751717;
 }
 footer{
     background-color: #2d661b;

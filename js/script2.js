@@ -5,25 +5,39 @@ function carga(){
     const URL = userURL
     const contenedorPrincipalDos = document.querySelector("#contenedorUser");
 
+
     xhr.open("GET", URL, true);
     xhr.onload = function(){
         const datos = xhr.response;
         const datosObject = JSON.parse(datos);
 
-        let pNombre, pEmail, textNombre, textEmail, divContain;
+        let divContainCard, divImg, card, aNombre, pEmail, textNombre, textEmail, avatarImg;
 
-        divContain = document.createElement('div');
-        pNombre = document.createElement('p');
+        divContainCard = document.createElement('div');
+        divContainCard.classList.add('containCard2');
+
+        divImg =  document.createElement('div');
+        divImg.classList.add('imagenProducto');
+
+        card = document.createElement('div');
+        card.classList.add('card1');
+
+        aNombre = document.createElement('a');
         pEmail = document.createElement('p');
 
-        contenedorPrincipalDos.appendChild(divContain);
-        divContain.appendChild(pNombre);
-        divContain.appendChild(pEmail);
+        contenedorPrincipalDos.appendChild(divContainCard);
+        divContainCard.appendChild(divImg);
+        divContainCard.appendChild(card);
+        card.appendChild(aNombre);
+        card.appendChild(pEmail);
 
         textNombre = document.createTextNode(datosObject.data.first_name + ' ' +datosObject.data.last_name)
-        pNombre.append(textNombre);
+        aNombre.append(textNombre);
         textEmail = document.createTextNode(datosObject.data.email);
         pEmail.append(textEmail);
+
+        avatarImg = datosObject.data.avatar;
+        divImg.style.backgroundImage = 'url('+avatarImg+')';
     };
     xhr.send();
 }
