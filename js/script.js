@@ -45,10 +45,3 @@ xhr.onload = function(){
     
 };
 xhr.send(); 
-
-/* function userIndividual(i){
-    localStorage.setItem("urlGlobal", elementoVacio);
-    userURL = URL+'/'+i;
-    localStorage.setItem("urlGlobal", userURL);
-    return userURL;
-} */
